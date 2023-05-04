@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.name{
+  color: red;
+}
+/* List start*/
+.List{
+  background-color: white;
+  margin-top: 50px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+}
+
+/* Input and button */
+.Input{
+  margin-right: 0;
+
+  margin-top: 50px;
+  height: auto;
+  width: auto;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+/*Tasks*/
+.lists{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around !important;
+}
+
+.task_Text{
+  margin-right: 20px;
+}
